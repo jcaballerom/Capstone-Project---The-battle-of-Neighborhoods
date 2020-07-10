@@ -11,3 +11,10 @@ Actually, Washington state has 430 breweries around it’s huge territory. The m
 Everything is fine so far, but some of the information in the brochures is outdated. So, if you don’t know about the breweries located on Washington state or the existence of the web site, you are going to waste a lot of time trying to look for breweries and find that some are already closed or have been moved.
 
 So, to fix this problem I’m going to use the Foursquare API to have updated information about the breweries located in Washington State and in future locations, to update this task and make it easier for further enthusiasts.
+
+For this project I’m going to request the information from the Foursquare API and manipulate it to get the information about the breweries located in Washington 
+State using the geolocation coordinates and filter by venue category to get all the categories related to breweries.
+
+The result of the information requested would be divided into counties and in the future filtered and clustered to separate it by cities. Once done a brewery tour can be planned if you want to try different breweries or this is a good idea to start a beer tour business.
+
+The filter for this project was set for Snohomish County (the county where I’m living). Snohomish County has 20 cities and 36 breweries having Everett and Snohomish the most (6 each). Some of the breweries are not listed in the results, this may be because there is a new brewery, small brewery, re-located brewery or there is no review of the brewery yet. Also some breweries were located in the wrong city.
